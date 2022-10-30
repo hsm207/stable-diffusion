@@ -12,4 +12,6 @@ download-model:
 	python scripts/download_txt2img_model.py
 
 run:
-	python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms 
+	python scripts/txt2img.py \
+		--plms \
+		--prompt "a photograph of an astronaut riding a horse" 
