@@ -68,5 +68,3 @@ model:
 
     cond_stage_config:
       target: ldm.modules.encoders.modules.FrozenCLIPEmbedder
-      params:
-        device: cpu
