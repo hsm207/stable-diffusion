@@ -17,5 +17,5 @@
 		"ghcr.io/devcontainers/features/git-lfs:1": {}
 	},
 	"extensions": ["eamodio.gitlens"],
-	"runArgs": ["--env-file",".devcontainer/devcontainer.env"]
+	"runArgs": ["--env-file",".devcontainer/devcontainer.env", "--runtime", "nvidia"]
 }
