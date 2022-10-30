@@ -8,6 +8,7 @@ install-extra-deps:
 		ipywidgets
 
 download-model:
+	mkdir -p ./models/ldm/stable-diffusion-v1
 	python scripts/download_txt2img_model.py
 
 run:
