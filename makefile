@@ -14,4 +14,4 @@ download-model:
 run:
 	python scripts/txt2img.py \
 		--plms \
-		--prompt "a photograph of an astronaut riding a horse" 
+		--prompt "art nuveau style, woman pose study, flowers, 4k, high detail" 
